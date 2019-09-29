@@ -1,4 +1,4 @@
-package test.sorter;
+package sorter;
 
 import by.epam.arrays.firsttask.sorter.ArraySorter;
 import org.junit.Test;

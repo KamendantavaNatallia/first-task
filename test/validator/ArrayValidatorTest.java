@@ -1,4 +1,4 @@
-package test.validator;
+package validator;
 
 import by.epam.arrays.firsttask.validator.ArrayValidator;
 import org.testng.annotations.DataProvider;

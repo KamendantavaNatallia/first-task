@@ -1,5 +1,7 @@
 package by.epam.arrays.firsttask.utils;
 
+import by.epam.arrays.firsttask.exception.NullArrayException;
+
 import java.util.Arrays;
 
 public class ArrayStreamAction {

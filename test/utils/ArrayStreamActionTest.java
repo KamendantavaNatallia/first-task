@@ -1,20 +1,14 @@
-package test.utils;
+package utils;
 
 import by.epam.arrays.firsttask.utils.ArrayStreamAction;
-import by.epam.arrays.firsttask.utils.NullArrayException;
-import org.testng.annotations.BeforeClass;
+import by.epam.arrays.firsttask.exception.NullArrayException;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
 
 public class ArrayStreamActionTest {
     private ArrayStreamAction arrayStreamAction;
     private double[] array = {2.0, 4.0, 6.0, 8.0, 10.0};
-
-    @BeforeClass
-    public void setup() {
-        arrayStreamAction = new ArrayStreamAction();
-    }
 
     @Test
     public void testFindMin() throws NullArrayException {

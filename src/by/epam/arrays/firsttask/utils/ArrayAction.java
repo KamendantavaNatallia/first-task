@@ -1,12 +1,13 @@
 package by.epam.arrays.firsttask.utils;
 
+import by.epam.arrays.firsttask.exception.NullArrayException;
 
 public class ArrayAction {
 
     public static double findMin(double[] array) throws Exception{
 
         if (array == null){
-                throw new NullArrayException("Array is NULL");
+            throw new NullArrayException("Array is NULL");
         }
         if (array.length < 2) {
             return array[0];
