@@ -25,7 +25,7 @@ import java.util.stream.Stream;
         try (Stream<String> lineStream = Files.newBufferedReader(path).lines()) {
             lines = lineStream.collect(Collectors.toList());
         } catch (IOException e) {
-            e = new LineReaderException("A problem with lines reading");
+            new LineReaderException("A problem with lines reading", e);
         }
         return lines;
     }

@@ -2,7 +2,6 @@ package by.epam.arrays.firsttask.creator;
 
 import java.util.Random;
 
-
 public class ArrayCreator {
     public double[] array;
 
