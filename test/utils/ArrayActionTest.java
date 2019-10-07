@@ -3,7 +3,8 @@ package utils;
 import by.epam.arrays.firsttask.utils.ArrayAction;
 import org.junit.Test;
 
-import static org.testng.Assert.*;
+import static org.testng.AssertJUnit.assertEquals;
+
 
 public class ArrayActionTest {
 
